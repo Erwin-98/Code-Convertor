@@ -22,15 +22,6 @@ The **Python to C++ Code Converter** is a tool that converts Python code into eq
 
 ---
 
-### Usage
-1. Prepare your Python code file as input (e.g., `example.py`).
-2. Run the Python-to-C++ conversion script:
-   ```bash
-   python converter.py
-   ```
-3. Paste or input your Python code when prompted. The program will output the equivalent C++ code.
-4. Save the C++ code to a `.cpp` file for further use.
-
 ### Example
 #### Input (Python Code):
 ```python
@@ -48,14 +39,6 @@ if (x > 10) {
     std::cout << "x is greater than 10" << std::endl;
 }
 ```
-
----
-
-## Project Structure
-- `converter.py`: The main Python-to-C++ conversion script.
-- `README.md`: Project documentation and usage guide.
-- Example test files (optional): Sample Python scripts for testing.
-
 ---
 
 ## Possible Additions
