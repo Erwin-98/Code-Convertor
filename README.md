@@ -26,28 +26,6 @@ The **Python to C++ Code Converter** is a tool that converts Python code into eq
 
 ---
 
-## Getting Started
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/python-to-cpp-converter.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd python-to-cpp-converter
-   ```
-3. Ensure you have Python 3.6 or higher installed on your system.
-
-### Usage
-1. Prepare your Python code file as input (e.g., `example.py`).
-2. Run the Python-to-C++ conversion script:
-   ```bash
-   python converter.py
-   ```
-3. Paste or input your Python code when prompted. The program will output the equivalent C++ code.
-4. Save the C++ code to a `.cpp` file for further use.
-
 ### Example
 #### Input (Python Code):
 ```python
@@ -75,7 +53,7 @@ if (x > 10) {
 
 ---
 
-## Limitations
+## Possible additions
 - Does not handle external Python libraries or imports.
 - Assumes valid Python syntax; invalid or complex Python constructs may result in errors.
 - Limited type inference (e.g., assumes simple integer, float, or string types).
@@ -98,15 +76,4 @@ We welcome contributions! To contribute:
    git push origin feature-name
    ```
 5. Submit a pull request.
-
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
-
-## Acknowledgments
-- Inspired by the need for a quick and efficient Python-to-C++ translation tool.
-- Thanks to contributors and the open-source community for their support!
 
