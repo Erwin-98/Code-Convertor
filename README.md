@@ -12,10 +12,6 @@ The **Python to C++ Code Converter** is a tool that converts Python code into eq
 - **Loops**: Supports translation of Python's `for` and `while` loops.
 - **Classes and Methods**: Handles basic class structures, methods, and inheritance.
 
----
-
-## Requirements
-
 ### Dependencies
 - Python 3.6 or higher
 - Built-in `re` module for regular expressions
@@ -25,6 +21,15 @@ The **Python to C++ Code Converter** is a tool that converts Python code into eq
 - Memory/Hardware: Standard computing device
 
 ---
+
+### Usage
+1. Prepare your Python code file as input (e.g., `example.py`).
+2. Run the Python-to-C++ conversion script:
+   ```bash
+   python converter.py
+   ```
+3. Paste or input your Python code when prompted. The program will output the equivalent C++ code.
+4. Save the C++ code to a `.cpp` file for further use.
 
 ### Example
 #### Input (Python Code):
@@ -53,10 +58,12 @@ if (x > 10) {
 
 ---
 
-## Possible additions
-- Does not handle external Python libraries or imports.
-- Assumes valid Python syntax; invalid or complex Python constructs may result in errors.
-- Limited type inference (e.g., assumes simple integer, float, or string types).
+## Possible Additions
+- **Support for Advanced Data Structures**: Add conversion for lists, dictionaries, and sets to their C++ equivalents.
+- **External Library Handling**: Incorporate Python imports into C++ includes.
+- **Improved Error Handling**: Ensure the program can gracefully handle invalid or edge-case Python code.
+- **GUI Interface**: Develop a graphical interface for non-technical users.
+- **Extended Type Inference**: Enhance support for detecting and converting complex types.
 
 ---
 
@@ -76,4 +83,3 @@ We welcome contributions! To contribute:
    git push origin feature-name
    ```
 5. Submit a pull request.
-
